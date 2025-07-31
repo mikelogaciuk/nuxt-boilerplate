@@ -1,5 +1,14 @@
 @import 'tailwindcss';
+@plugin "@tailwindcss/typography";
 @plugin "daisyui" {
   themes: nord --default;
   prefix: 'd-';
+}
+
+/* Typography for Markdown Content */
+.prose h1 {
+  @apply text-4xl text-primary;
+}
+.prose h2 {
+  @apply text-3xl text-secondary;
 }
