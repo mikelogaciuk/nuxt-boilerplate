@@ -14,12 +14,14 @@ export default defineNuxtConfig({
       markdown: {
         highlight: {
           // Get the themes from here: https://shiki.style/themes
-          theme: 'dracula',
+          theme: 'rose-pine',
+          // Get the languages from here: https://shiki.style/languages
           langs: [
             'c',
             'cpp',
             'java',
             'ruby',
+            'crystal',
             'python',
             'elixir',
             'json',
@@ -32,6 +34,17 @@ export default defineNuxtConfig({
             'mdc',
             'md',
             'yaml',
+            'dockerfile',
+            'gleam',
+            'rust',
+            'go',
+            'bash',
+            'php',
+            'sql',
+            'plsql',
+            'haskell',
+            'scala',
+            'toml',
           ],
         },
       },
